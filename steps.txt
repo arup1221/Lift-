@@ -1,0 +1,22 @@
+Design the HTML page 2 input and 2 button one simulate and one back  
+
+add a static lift up down button  
+
+Add minimum Css
+
+
+Imp: here we take 2 page same route (using csoc dashboard hamburger approch--- block/none)
+
+ Add js *********************
+ KEY POINTS:-
+ 1. creating floors and back to first page need to delete the floors
+ 2. Up and down button
+ 3. 2 for each needed for movement of the lift
+ 4. adjust the lift movement time (first try in static )
+ 5. adding css class in JS
+
+Edge cases 
+lift and floor numbers need to control (chatgpt)
+up and down button
+
+

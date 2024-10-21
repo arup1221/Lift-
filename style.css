@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+  .firstPage{
+    height: 100vh;
+    transition: 0.4s ease;
+  }
+
+  .page-heading{
+    font-size: 4rem;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+    color: #212529
+  }
+
+  .input_container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    
+  }
+
+
+  .lift-sim_input {
+    padding: 5px 10px;
+    font-size: 1rem;
+    border-radius: 10px;
+    margin-top: 5px;
+    min-width: 250px;
+    justify-content: center;
+    border: 2px solid #dddddd;
+    transition: 0.4s ease;;
+  }
+ 
+
+  .lift-sim_input:focus{
+    border-color: #212529;
+  }
+
+  .createLiftFloorButton{
+  margin-top: 1rem;
+  margin-left: 2vh;
+  padding: 5px 10px;
+  font-size: 1.5rem;
+  border: 2px solid #dddddd;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.4s ease;;
+}
+
+  /* social */
+
+
+  .buttonLift{
+    display: flex;
+  }
+
+  .button{
+    width:50px;
+    display: flex;
+    flex-direction: column;
+    margin: 11px 18px;
+ }
+
+  .button button{
+    margin: 2px;
+  }
+.up{
+    font-size: 13px;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+    background-color: #05B103;
+    color: #212529;
+}
+
+.down{
+    font-size: 13px;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+    background-color: #F8B900;
+    color: #212529
+}
+
+.up:hover{
+    background-color: forestgreen;
+    color: black;
+}
+
+.down:hover{
+    background-color: rgb(166, 166, 35);
+    color: black;
+}
+
+.mainLift{
+    display: flex;
+    margin-left: 10px;
+}
+
+.lift{
+    width: 60px;
+    height: 60px;
+    background-color: #dddddd;
+    border: 2px solid black;
+    margin-right: 5px;
+    transition-property:transform;
+    transition-timing-function:ease-in;
+    border:#fff;
+}
+.gates{
+    display: flex;
+    
+
+}
+.gate1{
+    width: 60px;
+    height: 60px;
+    margin: 1px;
+    background-color:#00A2FF;
+    transition: width 2.5s ease-in-out;
+    
+}
+.gate1-move{
+    transform: translateX(-500%);
+}
+
+
+
+.secondPage{
+     
+    display: none;  
+    margin: 4% auto;
+
+}
+ .hrfloorName{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 3px;
+ }
+
+hr{
+    flex-grow:1;
+    height: 1px;
+    border-top: 2px solid black;
+}
+
+h2{
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+
+h2 span{
+    background: #fff;
+    padding: 0 10px;
+}
+.goToFirstPage{
+    font-size: 18x;
+    margin: 5px 0 10px 3px ;
+    background-color:#212529;
+    color: white;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+}
+
+ @media (width>500px){
+    .lift{
+        margin-right: 55px;
+    }
+    .mainLift{
+        margin-left: 50px;
+    }
+}
+
+
+
+
+
+
+
